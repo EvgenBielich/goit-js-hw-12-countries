@@ -6,6 +6,21 @@
     <title>Country</title>
   </head>
   <body>
-    <!-- <script src="./index.js"></script> -->
+    <form class="form-inline search-form js-search-form">
+      <div class="form-group">
+        <label for="searchQuery" class="form-lab"></label>
+        <input
+          type="text"
+          class="form-input"
+          name="query"
+          id="searchQuery"
+          placeholder="Search country  "
+          autocomplete="off"
+        />
+      </div>
+      <ul class="articles js-articles"></ul>
+    </form>
+
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
