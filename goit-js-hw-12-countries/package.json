@@ -1,36 +1,34 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-12-countries",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://evgenbielich.github.io/goit-js-hw-12-countries/", 
-
+  "homepage": "https://evgenbielich.github.io/goit-js-hw-12-countries",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/"
-
-
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/goit-js-hw-12-countries"
+    "url": "git+https://github.com/evgenbielich/goit-js-hw-12-countries.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Julia Melnik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/evgenbielich/goit-js-hw-12-countries/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
-    "pnotify": "^5.2.0",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "@pnotify/core": "^5.2.0",
-    "lodash.debounce": "^4.0.8"
+    "gh-pages": "^3.1.0",
+    "handlebars": "^4.7.7"
   }
 }
