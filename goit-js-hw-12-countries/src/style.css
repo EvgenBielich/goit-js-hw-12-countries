@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 100px;
+  background-image: url('./images/bg-pattern.png');
+}
+
+.form-inline {
+  text-align: center;
+}
+
+.form_country {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  min-width: 300px;
+}
+
+.flag {
+  max-width: 320px;
+  border: 1px solid black;
+}
+
+.form-input {
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 40px;
+  max-width: 300px;
+}
+
+.listCountry {
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.description_list {
+  list-style: none;
+  text-align: start;
+  margin-right: 20px;
+}
+
+.item {
+  text-align: start;
+  font-weight: bold;
+}
